@@ -89,6 +89,38 @@ main p{
     width: 100%;
     padding: 10px 0px 10px 0px;
 }
+#asidelt{
+    position: absolute;
+    background-color: var(--corbranca);
+    height: 200px; 
+    padding: 20px 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    max-width: 150px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+    top: 510px;
+    left: 20px;
+}
+#asidert{
+    position: absolute;
+    background-color: var(--corbranca);
+    height: 200px; 
+    padding: 20px 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    max-width: 150px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+    top: 510px;
+    right: 20px;
+}
+p.aside-texto {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 0px 0px;
+    text-align: justify;
+    line-height: 1.5em;
+}
 footer{
     background-color: var(--corbranca);
     padding: 20px 30px;
