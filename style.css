@@ -76,7 +76,7 @@ main h1, h2, h3{
     text-align: center;
     padding: 10px;
 }
-main p{
+main p.texto{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0px 10px 0px;
     text-align: justify;
@@ -95,7 +95,6 @@ main p{
     height: 200px; 
     padding: 20px 20px;
     margin: auto;
-    margin-bottom: 30px;
     border-radius: 10px;
     max-width: 150px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
@@ -108,7 +107,6 @@ main p{
     height: 200px; 
     padding: 20px 20px;
     margin: auto;
-    margin-bottom: 30px;
     border-radius: 10px;
     max-width: 150px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
@@ -120,6 +118,42 @@ p.aside-texto {
     margin: 10px 0px 0px 0px;
     text-align: justify;
     line-height: 1.5em;
+}
+#divbt{
+    margin: auto;
+    margin-bottom: 30px;
+}
+#blocklt{
+    display: inline-block;
+    background-color: var(--corbranca);
+    height: 150px; 
+    padding: 20px 20px;
+    margin-left: 232px;
+    border-radius: 10px;
+    width: 375px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+}
+#blockrt{
+    position: relative;
+    display: inline-block;
+    background-color: var(--corbranca);
+    height: 150px; 
+    padding: 20px 20px;
+    float: right;
+    margin-right: 232px;
+    border-radius: 10px;
+    width: 375px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+}
+#blockbt{
+    background-color: var(--corbranca);
+    height: 300px; 
+    padding: 30px 30px;
+    margin: 30px 0px 0px 232px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 825px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
 }
 footer{
     background-color: var(--corbranca);
